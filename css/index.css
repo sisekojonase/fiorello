@@ -1,0 +1,210 @@
+html{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* header starts */
+.logo{
+    text-align: center;
+}
+span{
+    color: rgb(201, 9, 9);
+}
+/* navbar */
+ul{
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-grid;
+    margin: 30px;
+}
+ul li :hover{
+    color: rgb(201, 9, 9);
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+#search{
+    float: left;
+}
+#bag{
+    float: right;
+    padding-right: 70px;
+}
+/* navbar ends */
+/* background image */
+.background-image{
+    background-image: url('../images/backgeound.jpg');
+    height: 500px;
+}
+/* header ends */
+/* main starts */
+
+.top{
+    padding-top: 50px;
+}
+.top h4{
+    font-weight: lighter;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.pictures img{
+    height: 200px;
+    width: 200px;
+}
+.pictures h4{
+    text-align: center;
+}
+.pictures p{
+    text-align: center;
+}
+
+.testimonial{
+    background: rgb(211, 206, 206);
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.test{
+    padding-top: 50px;
+}
+.test img{
+    height: 80px;
+    width: 80px;
+}
+.test p{
+    font-size: 24px;
+}
+.test h5{
+    font-weight: lighter;
+}
+#florist{
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgb(156, 146, 146);
+}
+/* main ends here */
+/* section starts here */
+
+.featured{
+    padding-top: 20px;
+}
+.heading h3{
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.featured img{
+    height: 300px;
+    width: 230px;
+}
+.featured h4{
+    font-weight: lighter;
+}
+.flowers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.flower-1{
+    text-align: center;
+}
+.flower-2{
+    text-align: center;
+}
+.flower-3{
+    text-align: center;
+}
+.flower-4{
+    text-align: center;
+}
+
+.content{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.paragraph h2{
+    font-size: 40px;
+}
+.paragraph p{
+    font-size: 20px;
+}
+#sign{
+    width: 190px;
+    height: 56px;
+    padding-top: 20px;
+}
+.images-pic img{
+    width: 700px;
+    height: 400px;
+    padding-left: 50px;
+}
+
+.join-the-colorful{
+    padding-top: 20px;
+    text-align: center;
+    background: rgb(226, 221, 221);
+    padding-bottom: 70px;
+}
+.join h5{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0,0,0);
+}
+#b-t{
+    width: 300px;
+    height: 60px;
+}
+#submit{
+    width: 160px;
+    height: 68px;
+    background-color: rgb(0,0,0);
+    border: rgb(0,0,0);
+    color: rgb(225,225,225);
+    padding-right: 20px;
+}
+/* section ends here */
+/* footer starts here */
+.about{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.about h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+nav{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(134, 125, 125);
+}
+
+.last{
+    padding-top: 80px;
+}
+.last p{
+    font-weight: lighter;
+    color: rgb(134, 130, 130);
+}
+.cards img{
+    padding-top: 100px;
+}
+.facebook nav{
+    padding-top: 100px;
+    padding-left: 100px; 
+}
+.facebook nav li{
+    display: inline; 
+    padding: 10px;
+}
